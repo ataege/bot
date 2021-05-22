@@ -1,6 +1,6 @@
 import { Guild } from 'discord.js';
-import { RunEventFunction } from '@crew22/lib/interfaces/Event';
-import Server from '@crew22/lib/models/Server';
+import { RunEventFunction } from '../../../lib/interfaces/Event';
+import Server from '../../../lib/models/Server';
 
 // @ts-ignore
 export const run: RunEventFunction = async (client, guild: Guild) => {
